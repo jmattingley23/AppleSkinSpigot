@@ -1,4 +1,5 @@
-https://www.curseforge.com/minecraft/mc-mods/appleskinspigot
+https://www.spigotmc.org/resources/appleskinspigot.97473/  
+https://papermc.io/forums/t/9287
 
 # AppleSkinSpigot
 

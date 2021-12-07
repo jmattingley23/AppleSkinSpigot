@@ -21,6 +21,13 @@ public class BukkitCraftPlayerFactoryTest {
     Logger loggerMock;
 
     @Test
+    public void getBukkitCraftPlayer1_18_R1ReturnsPlayer() {
+        when(serverMock.getBukkitVersion()).thenReturn("1.18.1-R0.1-SNAPSHOT");
+        BukkitCraftPlayer bukkitCraftPlayer = new BukkitCraftPlayerFactory().getBukkitCraftPlayer(serverMock);
+        assertTrue(bukkitCraftPlayer instanceof BukkitCraftPlayer_1_18);
+    }
+
+    @Test
     public void getBukkitCraftPlayer1_17_R1ReturnsPlayer() {
         when(serverMock.getBukkitVersion()).thenReturn("1.17.1-R0.1-SNAPSHOT");
         BukkitCraftPlayer bukkitCraftPlayer = new BukkitCraftPlayerFactory().getBukkitCraftPlayer(serverMock);

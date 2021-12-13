@@ -8,6 +8,7 @@ A server-side implementation of the [AppleSkin](https://www.curseforge.com/minec
 ---
 
 ### Supported Game Versions
+- 1.18.1
 - 1.18
 - 1.17.1
 

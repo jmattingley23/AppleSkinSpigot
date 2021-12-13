@@ -3,6 +3,8 @@
 build/
 libs/
 logs/
+**/target/
+**/*.iml
 
 # ----------------------------
 # JetBrains.gitignore

@@ -1,0 +1,5 @@
+1.0.1
+    - added 1.18 support
+1.0.0
+    - initial release
+    - 1.17.1 supported

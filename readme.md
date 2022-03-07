@@ -5,12 +5,17 @@ https://papermc.io/forums/t/9287
 
 A server-side implementation of the [AppleSkin](https://www.curseforge.com/minecraft/mc-mods/appleskin) mod for Paper/Spigot servers.  Syncs the saturation & exhaustion values to any connected clients.
 
+Requires Java 16 or 17
+
+
 ---
 
 ### Supported Game Versions
+- 1.18.2
 - 1.18.1
 - 1.18
 - 1.17.1
+- older
 
 ---
 
@@ -18,10 +23,6 @@ A server-side implementation of the [AppleSkin](https://www.curseforge.com/minec
 
 | File | Class % | Method % | Line % |
 | --- | --- | --- | --- |
-| craftplayer/BukkitCraftPlayer_1_17_1 | 100% (1/1) | 100% (1/1) | 100% (2/2) |
-| craftplayer/BukkitCraftPlayer_1_18 | 100% (1/1) | 100% (1/1) | 100% (2/2) |
-| craftplayer/BukkitCraftPlayerFactory | 100% (1/1) | 100% (1/1) | 100% (8/8) |
-| AppleSkinSpigotPlugin | 100% (1/1) | 100% (3/3) | 100% (13/13) |
+| AppleSkinSpigotPlugin | 100% (1/1) | 100% (3/3) | 100% (11/11) |
 | LoginListener	| 100% (1/1) | 100% (3/3) | 100% (4/4) |
-| SyncTask | 100% (1/1) | 100% (6/6)  | 100% (30/30) |
-| UnsupportedMinecraftVersionException | 100% (1/1) | 100% (0/0) | 100% (1/1) |
+| SyncTask | 100% (1/1) | 100% (5/5)  | 100% (22/22) |

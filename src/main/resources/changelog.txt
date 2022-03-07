@@ -1,3 +1,10 @@
+1.2.0
+    - switched to Bukkit messenger
+    - all versions old and new are now supported
+1.1.1
+    - added 1.18.1 support
+1.1.0
+    - refactored to maven submodules
 1.0.1
     - added 1.18 support
 1.0.0

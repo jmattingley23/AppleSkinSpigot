@@ -10,11 +10,12 @@
 
     <groupId>com.jmatt</groupId>
     <artifactId>AppleSkinSpigot</artifactId>
-    <packaging>pom</packaging>
+    <packaging>jar</packaging>
     <version>1.2.0</version>
 
     <properties>
-        <spigot.version>1.17.1-R0.1-SNAPSHOT</spigot.version>
+        <maven.compiler.source>16</maven.compiler.source>
+        <maven.compiler.target>16</maven.compiler.target>
     </properties>
 
     <build>
@@ -52,20 +53,20 @@
                     <argLine>
                         --add-opens=java.base/java.lang=ALL-UNNAMED
                         --add-opens=java.base/java.util=ALL-UNNAMED
+                        --add-opens=java.base/java.nio=ALL-UNNAMED
                     </argLine>
                 </configuration>
             </plugin>
         </plugins>
     </build>
 
-    <modules>
-        <module>AppleSkinSpigotPlugin</module>
-        <module>AppleSkinSpigotCore</module>
-        <module>AppleSkinSpigot_1_17_1</module>
-        <module>AppleSkinSpigot_1_18</module>
-    </modules>
-
     <dependencies>
+        <dependency>
+            <groupId>org.spigotmc</groupId>
+            <artifactId>spigot-api</artifactId>
+            <version>1.18.1-R0.1-SNAPSHOT</version>
+            <scope>provided</scope>
+        </dependency>
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
